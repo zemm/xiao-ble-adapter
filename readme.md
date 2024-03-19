@@ -29,6 +29,8 @@ ZMK Module coming soon.
 
 ## BOM & building
 
+[Schematic](xiao-ble-adapter-v0.1-schematic.pdf)
+
 @TODO BOM
 
 

@@ -5,11 +5,12 @@
   (paper "A4")
 
   (title_block
-    (title "Elite-C holder")
-    (date "2022-02-13")
-    (rev "2.0")
-    (company "BastardKB x KarlK90")
+    (title "XIAO BLE AAA Adapter")
+    (date "2024-02-25")
+    (rev "0.1")
+    (company "zemm")
     (comment 1 "Licensed under CERN-OHL-W v2")
+    (comment 2 "Based on the Elite-C holder by BastardKB x KarlK90")
   )
 
   (lib_symbols
