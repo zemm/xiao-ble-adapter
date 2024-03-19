@@ -34,4 +34,4 @@ It would be possible to have more pins and therefore retain the features by usin
 
 # License
 
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+CERN Open Hardware Licence Version 2 - Weakly Reciprocal
