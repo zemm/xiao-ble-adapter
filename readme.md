@@ -24,14 +24,24 @@ Initially tested as working.
 
 ## Firmware
 
-ZMK Module coming soon.
+[ZMK Module](https://github.com/zemm/zmk-config-bkd-xiao-ble).
 
 
-## BOM & building
+## BOM & build info
 
 [Schematic](xiao-ble-adapter-v0.1-schematic.pdf)
 
-@TODO BOM
+| Part              | Qty | Info    |
+| ----------------- | --- | ------- |
+| C 100n            | 2   | 0805    |
+| R 330             | 2   | 0805    |
+| R 2.7k            | 2   | 0805    |
+| MCU               | 2   | I used Seeed Studio XIAO nRF52740, but nRF52840 probably works too.          |
+| Battery holder    | 2   | [Keystone 2466 1xAAA](https://www.mouser.fi/ProductDetail/534-2466)          |
+| Reset button      | 2   | Generic 4 pin SMD push button                                                |
+| Power switch      | 2   | [Nidec CL-SB-12B-01T](https://www.mouser.fi/ProductDetail/229-CL-SB-12B-01T) |
+| Protection IC     | 2   | SOT-23-6 AP9101CK6 variant. I used AP9101CAK6-BVTRG1 due to availability, but some other models had more suitable threshold values. |
+| N-Channel MOSFET  | 4   | SOT-23 GSD. I used [SI2312CDS-T1-GE3](https://www.digikey.fi/fi/products/detail/vishay-siliconix/SI2312CDS-T1-GE3/2441583). |
 
 
 As the XIAO is mounted flush with the adapter pcb, there are two through-holes for XIAO positive battery and reset connections. They are meant to be soldered from the connector to the plated side wall of the through-hole.
